@@ -1,0 +1,36 @@
+.container {
+    width: 80%;
+    margin: auto;
+  }
+.header{
+    display: flex;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 50px;
+    border-bottom: 2px solid gray;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+}
+.header nav{
+    padding-top: 30px;
+}
+.header nav a{
+    padding: 15px;
+}
+.header h1{
+    width: 40%;
+    padding-top: 22px;
+}
+.header .btn{
+    margin-left: 20px;
+}
+.btn{
+    padding: 10px 25px;
+    color: cornsilk;
+    background-color: tomato;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}

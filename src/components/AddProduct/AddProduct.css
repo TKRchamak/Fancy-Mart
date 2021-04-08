@@ -1,0 +1,15 @@
+.inputDesign{
+    display: grid;
+    width: 60%;
+    margin: auto;
+    padding: 2px;
+}
+
+.inputDesign input ,
+label{
+    margin: 3px;
+}
+
+.inputDesign input{
+    padding: 5px;
+}
