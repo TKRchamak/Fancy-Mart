@@ -55,7 +55,7 @@ const AddProduct = () => {
                     <label htmlFor="Picture">Picture: </label>
                     <input id="Picture" type="file" placeholder="name" onChange={handleUploadImg} />
                 </div>
-                <input className="inputDesign" type="submit" />
+                <input  className="btn btn-primary inputDesign" type="submit" />
             </form>
         </div>
     );
