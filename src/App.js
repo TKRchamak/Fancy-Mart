@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import ReactDOM from "react-dom";
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,7 +26,6 @@ function App() {
   const [loggedInUser, setLoggedInUser] = useState({})
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
-      <h2> this is mail {loggedInUser.email}</h2>
       <Router>
         <Header></Header>
         <Switch>
@@ -38,7 +38,7 @@ function App() {
           <Route path="/addProduct">
             <AddProduct></AddProduct>
           </Route>
-          <PrivateRoute path="/checkout">
+          <PrivateRoute path="/checkout/:id">
             <Checkout></Checkout>
           </PrivateRoute>
           <PrivateRoute path="/manage">

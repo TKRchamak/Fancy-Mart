@@ -42,7 +42,6 @@ const AddProduct = () => {
     }
     return (
         <div className="container">
-            <h2>this is create for add product</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="inputDesign">
                     <label htmlFor="ProductName">Product Name: </label>

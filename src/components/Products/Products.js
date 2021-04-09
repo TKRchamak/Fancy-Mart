@@ -3,14 +3,9 @@ import './Products.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 
-const Products = ({ pd }) => {
-    const [buyProduct,setBuyProduct] = useState({})
-    const handleBuyProduct = () => {
-        const productID = pd._id;
-        const selectProduct = {...buyProduct,id: productID}
-        setBuyProduct(selectProduct);
-        console.log(buyProduct)
-    }
+const Products = (props) => {
+    const pd = props.pd;
+
     return (
         <div className="col-md-4" >
             <div className="card" >
@@ -18,7 +13,7 @@ const Products = ({ pd }) => {
                 <div className="card-body">
                     <h5 className="card-title">{pd.name}</h5>
                     <p className="card-text">{pd.price}</p>
-                    <a onClick={handleBuyProduct} className="btn btn-primary"><Link to='/checkout'>Buy Now</Link></a>
+                    <button onClick={()=>{props.handleBuyProduct(pd)}} className="btn btn-primary"><Link to={'/checkout/'+pd._id}>Buy Now</Link></button>
                 </div>
             </div>
         </div>

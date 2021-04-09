@@ -2,3 +2,12 @@
 .card{
     width: 18rem
 }
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover{
+    color: white;
+}
