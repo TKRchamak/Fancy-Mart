@@ -1,6 +1,10 @@
 # Fancy Mart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This site is a eCommerce Site.\
+In this Site Admin can Add Product And UseLess Products are cut From the Product list . \
+Without Admin no body can not add or Cut Product. \ 
+Client can Buy Product and Add Product in card.
+
 
 ## Live Site Link
 
