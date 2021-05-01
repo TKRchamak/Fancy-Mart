@@ -2,15 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Live Site Link
 
-In the project directory, you can run:
+live Site: https://assignmentnoten.web.app/
 
-### `npm start`
+### `Code Link`
 
-live Site: https://assignmentnoten.web.app/ \
 Client Site : https://github.com/TKRchamak/Fancy-Mart \
-Server Site : https://github.com/TKRchamak/Fancy-mart-server \
+Server Site : https://github.com/TKRchamak/Fancy-mart-server 
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
