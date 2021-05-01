@@ -8,8 +8,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
-live Site: https://assignmentnoten.web.app/
-Clint Site : https://github.com/TKRchamak/Fancy-Mart
+live Site: https://assignmentnoten.web.app/ \
+Client Site : https://github.com/TKRchamak/Fancy-Mart
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
